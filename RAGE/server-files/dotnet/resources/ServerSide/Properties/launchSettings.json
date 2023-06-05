@@ -2,8 +2,8 @@
   "profiles": {
     "RAGE": {
       "commandName": "Executable",
-      "executablePath": "C:\\Users\\Егор\\Downloads\\CourseProject-lesson_0\\CourseProject-lesson_0\\rage server(Hatingone)\\RAGE\\server-files\\ragemp-server.exe",
-      "workingDirectory": "C:\\Users\\Егор\\Downloads\\CourseProject-lesson_0\\CourseProject-lesson_0\\rage server(Hatingone)\\RAGE"
+      "executablePath": "C:\\Users\\Егор\\Documents\\GitHub\\HatingoneServerRage\\RAGE\\server-files\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\Егор\\Documents\\GitHub\\HatingoneServerRage\\RAGE\\server-files"
     }
   }
 }
