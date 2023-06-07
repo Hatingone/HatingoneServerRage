@@ -4,6 +4,6 @@
 	"gamemode" : "freeroam", 
 	"stream-distance" : 300.0,
 	"announce" : false,
-	"csharp" : "disabled",
+	"csharp" : "enable",
 	"port": 22005
 }
