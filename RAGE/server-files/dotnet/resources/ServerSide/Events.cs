@@ -1,6 +1,5 @@
 ﻿using GTANetworkAPI;
 
-
 namespace ServerSide
 {
     public class Events : Script

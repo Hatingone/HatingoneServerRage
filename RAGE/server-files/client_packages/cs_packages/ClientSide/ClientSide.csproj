@@ -6,6 +6,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Reference Include="rage-sharpN">
 			<HintPath>..\..\..\..\dotnet\rage-sharpN.dll</HintPath>
 		</Reference>

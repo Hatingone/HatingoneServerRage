@@ -1,14 +1,19 @@
 ﻿using System;
 using GTANetworkAPI;
-using RAGE;
 
 namespace ServerSide
 {
     public class RpcTestServer : Script
     {
-        private object GetTime(Player player)
+
+        private const string GetTimeServerKey = "RPC::CLIENT:SERVER:GetTimeServer";//делаем такой же ключ как и в RpcTestClient для работы с процедурой 
+
+
+        [RemoteProc(GetTimeServerKey)]//помечаем метод ниже как и с ивентами только теперь пишем RemoteProc
+        private string GetTime(Player player)//тест метод для передачи серверного времени на клиент
         {
-            return DateTime.Now;
+            return NAPI.Util.ToJson(DateTime.Now);
         }
     }
 }
+//для теста процедур rage mp
